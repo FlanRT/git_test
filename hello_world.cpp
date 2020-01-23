@@ -9,7 +9,7 @@ int main() {
 
     srand(static_cast<unsigned>(time(0)));
 
-    for (int i = 0; i < 100; i++)
+    for (int i = 0; i < 10; i++)
         vNumbers.push_back(rand() % 100);
 
     for (int i = 0; i < vNumbers.size(); i++)
